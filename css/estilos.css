@@ -1,0 +1,86 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+h2{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    color: #274c77;
+}
+
+a:visited{
+    text-decoration: none;
+    color: #274c77;
+}
+
+a:link{
+    text-decoration: none;
+    color: #274c77;
+}
+
+ul li{
+    list-style: none;
+}
+
+#info{
+    background:#274c77;
+    text-align: center;
+    color: white;
+}
+
+.texto{
+    padding: 1.5em;
+}
+
+.fs-3{
+    color: #ffd7ff;
+}
+
+.iframe{
+    
+    width: 80vw;
+    height: calc(80vw * 315 / 560);
+    margin: auto;
+    max-width: 1120px;
+    max-height: 630px;
+}
+
+iframe{
+    border: 0;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+#profesionales {
+    background-color: #c8b6ff;
+}
+
+footer{
+    background-color: #c8b6ff;
+}
+
+.me-2{
+    width: 30px;
+    height: 30px;
+}
+
+#logo{
+    
+    font-size: 0;
+    background: url(../img/Logo.svg) no-repeat center center scroll;
+    margin: auto;
+    width: 90px;
+    height: 55px;
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: 2;
+    }
+
+    @media screen and (max-width: 991px) {
+        #logo{ 
+            left: calc(50% - 25px);
+        }
+    }
+
+
